@@ -17,7 +17,7 @@ function myAjaxjsonp(url, param, jsoncallback, callback, errorCallback) {
     });
 }
 
-var mySubmitSignTimes = function (relativeTime, end) {
+function mySubmitSignTimes(relativeTime, end) {
     var param = {
         "courseId": liveCourseId,
         "userId": userId,

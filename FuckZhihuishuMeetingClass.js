@@ -19,13 +19,14 @@ function myAjaxjsonp(url, param, jsoncallback, callback, errorCallback) {
 
 function mySubmitSignTimes(relativeTime, end) {
     var param = {
-        "courseId": liveCourseId,
+        "liveCourseId": liveCourseId,
         "userId": userId,
         "relativeTime": relativeTime,
         "watchType": "2",
         "jsonpCallBack": "jsonpCallBack",
         "videoId": curVideoId,
-        "sourceType": 1
+        "sourceType": 1,
+        "recruitId": recruitId
     };
 
     myAjaxjsonp(
@@ -46,4 +47,4 @@ function mySubmitSignTimes(relativeTime, end) {
     );
 };
 
-mySubmitSignTimes(1, 100)
+mySubmitSignTimes(1, 200)

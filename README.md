@@ -1,4 +1,4 @@
-# fuck-zhihuishu-meeting-class
+# zhihuishu-meeting-class-helper
 
 智慧树见面课一键签到
 
